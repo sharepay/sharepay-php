@@ -1,0 +1,29 @@
+{
+  "name": "sharepay/sharepay-php",
+  "description": "SharePay PHP Library",
+  "keywords": [
+    "SharePay",
+    "multi-user payment processing",
+    "api"
+  ],
+  "homepage": "https://sharepayment.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SharePay and contributors",
+      "homepage": "https://github.com/sharepay/sharepay-php/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": { "SharePay\\" : "lib/" }
+  }
+}
